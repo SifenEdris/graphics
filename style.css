@@ -107,6 +107,7 @@ body.light {
   padding: 90px 6vw;
   min-height: 75vh;
   color: #cbd5e1; /* instead of muted gray */
+  margin-bottom: 50px;
 
 }
 
@@ -349,43 +350,21 @@ body.light {
 .link:hover {
   text-decoration: underline;
 }
-
-/* =================== CONTACT =================== */
-/* .contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 320px;
-  gap: 20px;
+.project-image {
+  width: 100%;          /* make container full width */
+  height: 200px;        /* set desired height */
+  overflow: hidden;     /* crop overflow */
+  border-radius: 10px;  /* optional rounded corners */
 }
 
-.contact-card {
-  background: rgba(255,255,255,0.05);
-  backdrop-filter: blur(10px);
-  padding: 20px;
-  border-radius: var(--radius);
-}
-
-.contact-card input,
-.contact-card textarea {
+.project-image img {
   width: 100%;
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid rgba(255,255,255,0.06);
-  background: transparent;
-  color: inherit;
-  margin-top: 6px;
+  height: 100%;
+  object-fit: cover;    /* ensures image covers container without distortion */
+  display: block;
 }
 
-.contact-card input:focus,
-.contact-card textarea:focus {
-  outline: none;
-  border-color: var(--teal);
-}
-.contact-info p {
-  margin: 10px 0;
-  color: var(--muted);
-  line-height: 1.6;
- word-wrap: break-word;
-  */
+
 
 
 
